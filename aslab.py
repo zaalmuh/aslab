@@ -25,8 +25,8 @@ daftarKesalahan = ['','Pastikan fontnya sesuai yaa (TNR 12)',
                    'Pastikan gambar diletakkan di pojok halaman']
 import sys, pyperclip
 if len(sys.argv) < 2:
-    print('Usage: python aslab.py [nama] kesalahan(pastikan dipisahkan dengan spasi)')
-    print('contoh: python aslab.py aliza 1 3 4 5')
+    print('Usage: aslab [nama] kesalahan(pastikan dipisahkan dengan spasi)')
+    print('contoh: aslab aliza 1 3 4 5')
     sys.exit()
 
 name = sys.argv[1]
